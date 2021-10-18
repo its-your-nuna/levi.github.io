@@ -44,7 +44,7 @@ body{
     
 }
 .menu{
-    
+    text-decoration: none;
     z-index: 4;
     position: absolute;
     top: 0;
@@ -70,7 +70,7 @@ body{
     margin-top: 10px;
 }
 .find{
-    margin-left: 1150px;
+    margin-left: 1100px;
     z-index: 5;
     position: absolute;
     top: 0;
@@ -78,6 +78,48 @@ body{
     
     
 }
+.armin{
+    margin-left: 1220px;
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav ul::after{
+    content: '';
+    display:block;
+    clear: both;
+}
+nav>ul>li{
+    float: left;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    background-color: gray;
+}
+nav ul ul {
+    position: absolute;
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+}
+.meni{
+    margin-left: 1270px;
+    z-index: 12;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 6px;
+}
+
+
 .play{
     z-index: 6;
     top: 0;
@@ -125,6 +167,18 @@ body{
     margin-left: 1150px;
     position: absolute;
     margin-top: 462px;
+    top: 0;
+    left: 0;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.notif{
+    margin-left: 1150px;
+    z-index: 6;
+    position: absolute;
     top: 0;
     left: 0;
 }
