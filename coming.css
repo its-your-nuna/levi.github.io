@@ -1,0 +1,78 @@
+
+body{
+margin: 0px;
+font-family: 'Abhaya Libre', serif;
+background-color: black;
+}
+
+
+        .gfg {
+            margin: 0%;
+            position: relative;
+            text-align: center;
+        }
+  
+        .first-txt {
+            position: absolute;
+            font-size: 72px;
+            color: white;
+            top: 200px;
+            left: 600px;
+        }
+        .first {
+            position: absolute;
+            font-size: 18px;
+            color: white;
+            top: 350px;
+            left: 720px;
+        }
+        #first {
+            position: absolute;
+            top: 350px;
+            left: 700px;
+        }
+  
+        .second-txt {
+            font-size: 36px;
+            position: absolute;
+            top: 350px;
+            left: 550px;
+            color: white;
+        }
+        .second {
+            font-size: 14px;
+            position: absolute;
+            top: 430px;
+            left: 720px;
+            color: white;
+        }
+        .play{
+            display: flex;
+            flex-direction: row;
+        }
+        #info{
+            display: flex;
+            flex-direction: row;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            align-content: center;
+           
+        }
+        .v {
+            border-left: 2px solid white;
+            height: 540px;
+            margin-left: 10px;
+          }
+          .inf{
+              display: flex;
+              flex-direction: column;
+              color: white;
+              margin-left: 10px;
+              background-color: rgba(86, 143, 228, 0.4);
+              
+          }
+          #text{
+              width:300px
+          }
+          
+    
